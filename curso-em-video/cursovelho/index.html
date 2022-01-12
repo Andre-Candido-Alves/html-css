@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+</head>
+<script src="funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabeçalho">
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                <ul>
+                    <li onmouseover="mudafoto('imagens/home.jpg')" onmouseout="mudafoto('unnamed.jpg')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudafoto('imagens/especificacoes.png')" onmouseout="mudafoto('unnamed.jpg')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudafoto('imagens/imagens.png')" onmouseout="mudafoto('unnamed.jpg')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudafoto('imagens/sobre.jpg')" onmouseout="mudafoto('unnamed.jpg')"><a href="multimidia.html">Sobre</a></li>
+                    <li onmouseover="mudafoto('imagens/faleconosco.png')" onmouseout="mudafoto('unnamed.jpg')"><a href="faleconosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            <img width="80px" src="unnamed.jpg" alt="icone" id="icone">
+            <h1>Google-Glas</h1>
+            <h2>A revolução do google está chegando</h2>
+        </header>
+        
+        <section id="corpo">
+            <article id="noticia-principal"> <!--ARTIGO-->
+                <header id="cabeçalho-artigo">
+                    <hgroup>
+                        <h3>Tecnologia > Inovações</h3>
+                        <h1>Saiba tudo sobre o Google Glass</h1>
+                        <h2 id="nomeaut">Por Andrézão</h2>
+                        <h3 class="direita">Atualizado em 20/março/2021</h3>
+                        <h2>O que é</h2>
+                    </hgroup>
+                </header>
+
+                <h1 class="t1">Site html e css</h1>
+                <figure class="imgcap">
+                    <img src="unnamed.jpg" alt="passaro">
+                    <figcaption><h1>Caption/legenda</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus iste incidunt debitis totam quae explicabo maiores cumque consectetur? Quisquam illo illum non nulla sint ullam eos officiis atque laudantium eum!</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis odit, aspernatur ipsa ipsam doloremque odio placeat provident optio quibusdam corporis in modi, expedita nobis vitae quia delectus, cumque nihil dolorem.</p></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui debitis omnis voluptas praesentium ea maiores eum. Quos temporibus dese&shy;runt excepturi eius modi illo, ex sapiente voluptatem nobis sint consequatur dolor!</p>
+                <table id="tabelaspec"><!--Tabela-->
+                    <caption>Tabela título etc <span>Mai/2020</span></caption>
+                    <tr><td class="te">Tela</td> <td class="td">Resolução equivalente a tela de 25"</td></tr>
+                    <tr><td rowspan="2" class="te">Camera</td> <td class="td">5MP para fotos</td></tr>
+                    <tr><td class="td">720p para vídeos</td></tr>
+                    <!--<tr><td colspan="2">Linha extra</td></tr>-->
+                    <tr><td rowspan="2" class="te">Conectividade</td> <td class="td">wi-fi</td></tr>
+                    <tr><td class="td">bluetooth</td></tr>
+                    <tr><td class="te">Memória Interna</td> <td class="td">12GB</td></tr>
+                </table>
+            </article>
+        </section>
+
+        <aside id="lateral"> <!--Barra lateral-->
+            <h1>Outras noticias</h1>
+            <h2>vídeos mais recentes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui in porro voluptas veritatis doloribus quasi, vel dignissimos ad cumque non corrupti ratione dolor quos ducimus asperiores ex quaerat commodi.</p>
+        </aside>
+
+        <footer id="rodape"> <!--Rodapé-->
+            <p>Copyright &copy; 2020 - by André Cândido, <br> <a href="#">facebook</a>/<a href="#">twitter</a></p>
+
+        </footer>
+    </div>
+</body>
+</html>

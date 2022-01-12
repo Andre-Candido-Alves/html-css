@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coisas que aprendi</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Treino do capitulo 1</h1>
+    <h2>Como por mysc simbles e emojis</h2>
+    <p>Esse aqui é um <a href="https://www.w3schools.com/charsets/ref_utf_symbols.asp" target="_blank" rel="external">misc simbols</a> / <a href="https://www.w3schools.com/html/html_entities.asp" rel="external" target="_blank">HTML entities</a> (temos os 2, os html entities são mais basicos mas possuem coisas basicas tbm) (existem tbm os entity name e entity number, é mais facil gravar o nome né) = &quot; &gt; &lt; -&gt; &quot; esses são exemplos de HTML entities e eu coloquei o entity name <br> outros exemplos: &quot;&#x2600;&quot; (Esse é um mysc simbles)</p>
+    <h2>Vamos fazer agora um emoji</h2>
+    <p>Esse é um emoji: &#x1F601; &#x2714; <br> são todos da <a href="https://emojipedia.org/" target="_blank" rel="external">emojipidia</a></p>
+    
+    <p style="font-size: 30px; color:rgb(0, 0, 0);">Podemos também colocar <strong>favicon&apos;s</strong> no nosso site, assim como coloquei lá em cima</p>
+    <p>Para colocar o favicon eu baixei uma imagem PNG e fui no site <a href="https://favicon.io/" rel="external" target="_blank">favicon.ico</a> na vdd não usei a imagem mas sim um icone que o proprio site me deu, mas tanto faz né? Desde que a extensão seja &quot;.ico&quot;</p>
+
+    <h2>Imagens</h2>
+    <p>Agora vou inserir imagens que se redimensionam automaticamente de acordo com o tamanho da tela do usuario</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/fotoo-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/fotoo-g.png" alt="imagem 1 grande">
+    </picture>
+    <audio src="media/happy-mistake.mp3" controls></audio>
+
+    <h2>Vídeos:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Formatação de texto</h2>
+    <p>Lorem ipsum dolor <strong>sit amet consectetur</strong> <abbr title="seila é só um teste">adipisicing elit</abbr>. <del>Esse quos recusandae</del> <ins>ipsum voluptatibus</ins> quia, <q>amet qui asperiores</q> obcaecati natus debitis <em>doloribus aperiam accusamus?</em> Libero, itaque atque rerum nobis veniam aliquam?</p>
+    
+    <h2>Listas</h2>
+    <p>E não podemos esquecer das famosas lista</p>
+    <h3>Lista ordenadas</h3>
+    <ol type="1">
+        <li>Este é o tópico um</li>
+        <li>Topico 2</li>
+        <li>E por ai vai</li>
+    </ol>
+    <h3>Listas não-ordenadas</h3>
+    <ul type="circle" >
+        <li>Este é um exemplo</li>
+        <li>Este é outro</li>
+        <li>E por aí vai</li>
+    </ul>
+    <h3>Listas de definição</h3>
+    <dl>
+        <dt>exemplo de termo</dt>
+        <dd>Exemplo de descrição</dd>
+        <dt>exemplo de termo</dt>
+        <dd>Exemplo de descrição</dd>
+    </dl>
+
+    <h3>Download de imagem</h3>
+    <p><a href="imagens/foto-m.png" type="image/png" download="fotinhogrande">Baixe aqui sua imagem</a> <br> <a href="media/happy-mistake.mp3" type="audio/mpeg" download="audio">Baixe aqui seu audio</a></p>
+    
+
+
+</body>
+</html>

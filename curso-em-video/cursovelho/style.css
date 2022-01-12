@@ -1,0 +1,230 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd;
+
+}
+
+a{
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#interface{
+    width: 85%;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+h1.t1{
+    text-shadow: 2px 2px 2px rgba(0, 0, 255, 0.315);
+}
+.imgcap{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+.imgcap img{
+    width: 100%;
+    height: 100%;
+}
+figure.imgcap figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /*display: none;*/
+    opacity: 0;
+    transition: opacity 1s;
+}
+figure.imgcap:hover figcaption{
+   /* display: block;*/
+   opacity: 1;
+}
+
+header #icone{
+    position: absolute;
+    left: 85%;
+    top: 70px;
+}
+header#cabeçalho{
+    border-bottom: 1px black solid;
+    height: 150px;
+    background: url("unnamed.jpg")no-repeat 0px 70px;
+}
+
+header#cabeçalho h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabeçalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #808080;
+    padding: 0px;
+    margin-top: 0px;
+    
+}
+article#noticia-principal h2{
+    font-size: 13px;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 10px;
+}
+header#cabeçalho-artigo h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header#cabeçalho-artigo h2#nomeaut{
+    font-size: 13pt;
+    color:#cecece;
+    background: none;
+    margin: 0px;
+}
+header#cabeçalho-artigo h3{
+    font-size: 12px;
+    color: #606060;
+
+}
+.direita{
+    text-align: right;
+}
+
+/*Formatação do menu*/
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top: -15px;
+    left: 650px;
+    
+    text-align: right;
+}
+nav#menu li{
+    border-radius: 20px;
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    
+    
+}
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    
+}
+#menu a:hover{
+    color: rgb(0, 0, 0);
+}
+
+nav#menu h1{
+    display: none;
+}
+/*Config da tabela*/
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td{
+    border: 0.5px solid #606060;
+    padding: 10px;
+}
+
+table#tabelaspec td.te{
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+table#tabelaspec td.td {
+    background-color: #cecece;
+   
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: black;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+/*config da section, footer e ascide*/
+section#corpo{
+    display: block;
+    width: 700px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+aside#lateral{
+    display: block;
+    width: 300px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445)
+}
+aside#lateral h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: white;
+    padding: 5px;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalha class/id e menu</title>
+</head>
+<style>
+    body{
+        background-color: lightpink;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+    }
+    div > p{
+        display: none;
+    }
+    div:hover{
+        color: blue;
+    }
+    div:hover > p{
+        /*background-color: white;*/
+        display: block;
+        width: 700px;
+    }
+    .principais{
+        color: black;
+        background-color: lightgrey;
+        
+    }
+    #t2{
+        color: rgb(255, 0, 0);
+    }
+
+</style>
+
+<body>
+    <h1>Teste de pseudo clas/class/id</h1>
+    
+    <div>
+        <h2 id="mouse">Passe o mouse aqui</h2>
+        <p id="p1" class="principais">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum repellendus minus suscipit temporibus ducimus inventore, eligendi doloremque id omnis ipsum consequatur voluptatem earum similique perspiciatis, quibusdam veritatis cum. Voluptatum.</p>
+    </div>
+
+    <h2 id="t2">Felicidades</h2>
+    <p id="p2" class="principais">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolores. Labore corrupti non molestiae quo beatae odio, autem eveniet reprehenderit quas veniam aperiam magnam enim minus suscipit nemo? Hic, eligendi!</p>
+
+    <h2>conclusão</h2>
+    <p>bacana acho que entendi como funcionam as classes, id´s e Pseudo-classes</p>
+    
+</body>
+</html>
